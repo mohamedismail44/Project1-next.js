@@ -6,6 +6,7 @@ export const metadata = {
 };
 export default async function AllPost(props) {
   const postNum = props.params.postid;
+  console.log(props);
   return (
     <section className="container mx-auto p-4">
       <h1>Post Details</h1>

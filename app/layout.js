@@ -15,19 +15,19 @@ export default function RootLayout({ children }) {
       <body>
         <nav className="flex justify-center align-middle  bg-orange-700 rounded">
           <Link
-            className="text-[30px] font-bold p-2 m-2 bg-orange-800 hover:bg-orange-600 transition-all rounded-[20px]"
+            className="font-bold p-2 m-2 bg-orange-800 hover:bg-orange-600 transition-all rounded-[20px] lg:text-[27px] sm:text-[23px] "
             href={"/"}
           >
             Home
           </Link>
           <Link
-            className="text-[30px] font-bold p-2 m-2 bg-orange-800 hover:bg-orange-600 transition-all rounded-[20px]"
+            className="  font-bold p-2 m-2 bg-orange-800 hover:bg-orange-600 transition-all rounded-[20px] lg:text-[27px] sm:text-[23px] "
             href={"/useclient"}
           >
             Api by 'UseClient'
           </Link>
           <Link
-            className="text-[30px] font-bold p-2 m-2 bg-orange-800 hover:bg-orange-600 transition-all rounded-[20px]"
+            className=" font-bold p-2 m-2 bg-orange-800 hover:bg-orange-600 transition-all rounded-[20px] lg:text-[27px] sm:text-[23px] "
             href={"/about"}
           >
             about

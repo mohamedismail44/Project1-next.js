@@ -21,7 +21,7 @@ export default function ApiUseClient() {
   return (
     <>
       <section className="container mx-auto p-4">
-        <div className=" grid grid-cols-3 gap-2">
+        <div className=" grid gap-2 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
           {Todo.map((ele, index) => (
             <div key={index} className="   text-center bg-emerald-700  m-1 p-2">
               <h1 className="text-2xl font-semibold">{ele.title}</h1>
